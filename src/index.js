@@ -8,6 +8,7 @@ import App from "./components/App";
 import Stack from "./components/Stack";
 import { setStack } from "./actions";
 
+//hi
 const store = createStore(rootReducer);
 store.subscribe(() => console.log("store", store.getState()));
 store.dispatch(setStack({ id: 0, title: "example", cards: [] }));
